@@ -1,0 +1,54 @@
+<div class="pane-head" style="padding: 10px;">
+	<button type="button" class="close" data-ng-click="panels.close();">x</button>
+</div>
+
+<div class="pane-body" style="padding: 10px;">
+
+	<div style="width: 380px;">
+	  <table class="table table-bordered" ng-repeat="f in selectedPOI.FABBRICATI">
+	    <tbody>
+	      <tr>
+		<th>N. inventario</th>
+		<td>{{f.N_INVENT}}</td>
+		</tr>		    
+	      <tr>
+		<th>Tipologia</th>
+		<td>{{f.TIPOLOGIA}}</td>
+		</tr>
+		<tr>
+		<th>Denominazione</th>
+		<td>{{f.DENOMINAZIONE}}</td>		      
+		</tr>
+		<tr>
+		<th>Descrizione</th>
+		<td>{{f.DESCRIZIONE}}</td>		      
+	    </tr>
+		<tr>
+		<th>Indirizzo</th>
+		<td>{{f.INDIRIZZO}}</td>		      
+	    </tr>
+		<tr>
+		<th>Localita'</th>
+		<td>{{f.LOCALITA}}</td>		      
+	    </tr>
+		<tr>
+		<th>Foglio</th>
+		<td>{{f.FG}}</td>		      
+	    </tr>
+		<tr>
+		<th>Mappale</th>
+		<td>{{f.MAPPALE}}</td>		      
+	    </tr>
+		<tr>
+		<th>SUB</th>
+		<td>{{f.SUB}}</td>		      
+	    </tr>		    
+	    </tbody>
+	  </table>
+	</div>	
+
+	<div>
+		<button type="button" class="close" data-ng-click="panels.close();">Chiudi</button>
+	</div>
+</div> 
+
