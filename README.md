@@ -1,4 +1,4 @@
-# Mappa dei Fabbricati Comunali di Desio
+# Mappa dei Terreni Comunali di Desio
 
 Il dataset [terreni.json](terreni.json) è stato ottenuto a partire dal dataset:
 
